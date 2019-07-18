@@ -1,68 +1,32 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Questions To Answer: 
+This is your chance to talk about the prompt! Please provide these answers on your README. 
+- Please share your screen resolution, OS, browser version (best if you're using latest) you used to test in so we can look at it in: 
+      Screen Resolution: 2650 x 1080
+      OS: MacOS
+      Browser: Chrome 75
 
-## Available Scripts
+- What part of the design did you get stuck on? What took the most time? Similarly, what was the easiest part? 
+      I got a bit stuck on the dashboard components (Totals, Site Visits, Revenue) because I couldn't find anything from the Material library that was close enough to the original design. So I ended up making custom components instead to make sure it looked as similar as possible. This took the most time because I had to figure out how to best incorporate my custom styles into the pre-built Material components. The easiest part was finding the Material icons to use for the drawer buttons.
 
-In the project directory, you can run:
+- What part of the design didn't make sense? Did you change anything?
+      The design made sense to me. I tried to keep everything as exact as I could. 
 
-### `npm start`
+- If you had more time, what would you have liked to implement? 
+      I would have liked to have made the hover state on the drawer buttons more accurate looking. I would have also liekd to have added more exact responsive breakpoints, but instead settled on using flexbox properties so the dashboard would at least be fairly responsive. I would have also liked to have added real chart or graph components inside the dashboard. 
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- What did you have to research or lookup while working on this? 
+      This was actually my first time ever using the React and Material libraries. I considered coding it from scratch or usign Bootstrap, but I wanted the end-result to look as accurate as possible by using the pre-made components from Material. I essentially had to learn React from the ground up. I watched a series of great tutorials by Wes Bos on React, and I read as much Material documentation as I could. I set up my file structure using Create React App, and basically started teaching myself to think in terms of components. 
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
