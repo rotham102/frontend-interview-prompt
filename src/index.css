@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+  font-family:"Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -10,4 +10,52 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.makeStyles-drawerPaper-9{
+  background-color:#2a333d !important;
+}
+
+.makeStyles-toolbar-2{
+  background-color:#31b4e0;
+}
+.makeStyles-toolbarIcon-3{
+  background-color: #20a6d3;
+}
+.makeStyles-hamburger-16{
+  color: #ffffff !important;
+}
+.MuiTypography-body1{
+  font-size: 14px !important;
+  color: #8ea3c1;
+}
+.MuiList-padding{
+  padding-top:32px !important;
+}
+.MuiGrid-item{
+  padding: 0 !important;
+}
+
+.MuiDrawer-paperAnchorDockedLeft{
+  border:none !important;
+}
+
+.MuiPaper-rounded{
+  border-radius:0px !important;
+}
+.MuiListItemIcon-root{
+  color:#8ea3c1 !important;
+}
+
+.lighter{
+  color:#8ea3c1;
+  margin-bottom: -5px;
+}
+
+.MuiPaper-elevation4{
+  box-shadow: none !important;
+}
+.MuiListItem-button:hover{
+  background-color:white !important;
+  color:black !important;
 }
